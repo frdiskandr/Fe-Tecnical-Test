@@ -1,8 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Theme } from "@radix-ui/themes";
-import Header from "@/components/header";
-import Footer from "@/components/Footer";
+import Header from "@/components/header.js";
+import Footer from "@/components/Footer.js";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +25,9 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Theme>
             <Header />
+            <main style={{minHeight: "100vh"}}>
             {children}
+            </main>
             <Footer />
         </Theme>
       </body>

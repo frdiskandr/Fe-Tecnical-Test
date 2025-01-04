@@ -1,7 +1,8 @@
 'use client'
-import { Flex, Text, Button } from "@radix-ui/themes";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import Slider from "@/components/slider.js";
+import style from './page.module.css';
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -17,9 +18,9 @@ export default function Home() {
 
 
   return (
-    <>
-   <h1>Home</h1>
-    </>
+    <div className={style.container}>
+   <Slider />
+    </div>
   );
 }
 
