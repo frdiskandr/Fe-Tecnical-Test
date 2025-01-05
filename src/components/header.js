@@ -11,10 +11,10 @@ const Header = () => {
 
         if (serch === true) {
             const serch = document.getElementById('serch');
-            serch.style.display = 'block';
+            serch.style.display = 'none';
         } else {
             const serch = document.getElementById('serch');
-            serch.style.display = 'none';
+            serch.style.display = 'block';
         }
     }
 
