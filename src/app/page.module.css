@@ -1,4 +1,268 @@
 .container{
     padding: 80px 120px 0px 120px;
-    background-color: antiquewhite;
+    background-image:url('https://s3-alpha-sig.figma.com/img/1076/77f6/37c0c2358ff0bcc49488e35118fb472e?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ts7tVG~YLE1RPDFnORZGjRzY3KCbjqc0hE~q7DQvhet4AJq8XdIiocr7WTBFh53HRIrrgQYmgLbiKLsJnJ31d-lI515RkoVUejgRrkpw13MwvusRbsut-eR1XPP2QsGVRx82ucdbEjzejNQW~A5E-lGY5~8lRn7ulMYvlXnIk2BKKuELwsFZoBUJ-cnodJlJZn1WnQttn6Fl7t5d-W-KTheiJ50aigBXRHDTuexP5TT3wf3cILrfauj81YWlhBeajKGXhHUh~lwWdpPfD0nnYvJcJTMDKVd29GrC3DUsjtYh2FGaN~p08dhDBcCRoTyDYxKeWW3hznAe5USmZxuuag__');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.head_content{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.title{
+    width: 100%;
+    max-width: 1500px;
+    color: aliceblue;
+    font-size: 1.2em;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.container_flashsale{
+  max-width: 1500px;
+  width: 100%;
+  align-self: center;
+  overflow: hidden;
+}
+
+.title_flashsale span{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.card_flashsale_container{
+    height: 252px;
+    width: 100%;
+    max-width: 1200px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-self: center;
+    margin-top: 1.5em;
+}
+
+.card_flashsale_item{
+    width: 291px;
+    height: 120px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #282828;
+    flex: 1 0 291px;
+}
+.card_content_top{
+    height: 50px;
+    display: flex;
+    color: #FFFFFF;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+   background-image: linear-gradient(to bottom right,#282828, #666666);
+}
+
+.card_content_top span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.card_content_top p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #A1A1A1;
+}
+
+.card_content_bottom{
+    height: 26px;
+    background-color: #282828;
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card_content_bottom span{
+    align-self: center;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #c92020;
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.card_content_bottom p{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+/* favorite games css */
+
+.favorite_games{
+    width: 100%;
+    background-color:#1A1A1A;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.container_favorite_games{
+    height: 496px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 8rem;
+}
+.container_favorite_games span{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.container_game{
+    width: 100%;
+    height: 420px;
+    gap:40px;
+    display:flex;
+}
+.category_game{
+    width:154px;
+    gap:12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category_game li{
+    list-style: none;
+    color: #FFFFFF;
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+}
+
+.category_game li:first-child{
+    background-color: #fafafa;
+    color: #1A1A1A;
+}
+.category_game li:first-child:hover{
+    cursor: pointer;
+}
+
+.category_game li:hover{
+    background-color: #fafafa;
+    color: #1A1A1A;
+    cursor: pointer;
+}
+
+.list_game{
+    height: 420px;
+    width: 100%;
+    max-width: 1006px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#1A1A1A ;
+}
+
+.container_card{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_game{
+    width: 180px;
+    height: 200px;
+    display: flex;
+    align-items: end;
+}
+
+.card_game:hover{
+    cursor: pointer;
+    
+    .card_game_content{
+        background-image: linear-gradient(to bottom right,#282828, #666666);
+    }
+}
+
+.card_game_image{
+   width: 10px;
+   height: 10px;
+   object-fit: contain;
+   border-radius: 8px;
+   position: relative;
+   left: 35px;
+   bottom: 160px;
+}
+
+.card_game_content{
+    height: 101px;
+    width: 180px;
+    background-color: #282828;
+    border-radius: 8px 28px 8px 20px;
+    -webkit-border-radius: 8px 28px 8px 20px;
+    -moz-border-radius: 8px 28px 8px 20px;
+    -ms-border-radius: 8px 28px 8px 20px;
+    -o-border-radius: 8px 28px 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.card_game_content span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.card_game_content p{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #949494;
 }

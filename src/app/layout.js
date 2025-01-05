@@ -24,11 +24,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Theme>
-            <Header />
-            <main style={{minHeight: "100vh"}}>
+          <Header />
+          <main>
             {children}
-            </main>
-            <Footer />
+          </main>
+          <Footer />
         </Theme>
       </body>
     </html>
