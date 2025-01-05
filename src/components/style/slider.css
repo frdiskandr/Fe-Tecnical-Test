@@ -239,10 +239,10 @@
   }
 
   .arrow-next {
-    right: -110px !important;
+    right: -80px !important;
   }
 
   .arrow-prev {
-    left: -110px !important;
+    left: -80px !important;
   }
 }

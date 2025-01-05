@@ -21,166 +21,218 @@ export default function Home() {
 
   return (
     <>
-    
-    <div className={style.container}>
-      <div className={style.head_content}>
-        <Skeleton>
-          <Slider />
-        </Skeleton>
-        <div className={style.title}>
-          <h3>Starlight November 2024: Melissa NIGHTWALKER</h3>
-          <p>
-            Segera dapatkan skin startlight melissa nightwalker dengan topup
-            murah hanya di VocaGame
-          </p>
+      <div className={style.container}>
+        <div className={style.head_content}>
+          <Skeleton>
+            <Slider />
+          </Skeleton>
+          <div className={style.title}>
+            <h3>Starlight November 2024: Melissa NIGHTWALKER</h3>
+            <p>
+              Segera dapatkan skin startlight melissa nightwalker dengan topup
+              murah hanya di VocaGame
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div className={style.container_flashsale}>
-        <div className={style.title_flashsale}>
-          <span>FLASH SALE</span>
-          <p>Segera dapatkan jangan sampai ketinggalan!</p>
-          <div className={style.card_flashsale_container}>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+        <div className={style.container_flashsale}>
+          <div className={style.title_flashsale}>
+            <span>FLASH SALE</span>
+            <p>Segera dapatkan jangan sampai ketinggalan!</p>
+            <div className={style.card_flashsale_container}>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
-              </div>
-            </div>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
-              </div>
-            </div>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
-              </div>
-            </div>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
-              </div>
-            </div>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
-              </div>
-            </div>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
-              </div>
-            </div>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
-              </div>
-            </div>
-            <div className={style.card_flashsale_item}>
-              <div className={style.card_content_top}>
-                <Image
-                  src={imgMl}
-                  alt=""
-                  style={{ width: "48px", height: "48px", borderRadius: "8px" }}
-                />
-                <div>
-                  <span>200 Diamonds</span>
-                  <p>Mobile Legends Bang Bang</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
                 </div>
               </div>
-              <div className={style.card_content_bottom}>
-                <span>Promo</span>
-                <p>-15.0%</p>
+              <div className={style.card_flashsale_item}>
+                <div className={style.card_content_top}>
+                  <Image
+                    src={imgMl}
+                    alt=""
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "8px",
+                    }}
+                  />
+                  <div>
+                    <span>200 Diamonds</span>
+                    <p>Mobile Legends Bang Bang</p>
+                  </div>
+                </div>
+                <div className={style.card_content_bottom}>
+                  <span>Promo</span>
+                  <p>-15.0%</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
       {/* favorite Games */}
 
@@ -194,141 +246,37 @@ export default function Home() {
               <li>Pc Game</li>
             </ul>
             <div className={style.list_game}>
-              
-              <div className={style.container_card}>
+
+
+              <div className={style.container_card}>  
+
+              {products.map((product) => {
+                console.log(product);
+                  return (
+                  <a href="#" className={style.card_game} key={product.id}>
+                  <div className={style.card_game_image}>
+                    <img
+                      src={product.image}
+                      alt=""
+                      loading="lazy"
+                      width={115}
+                      height={115}
+                      style={{
+                        borderRadius: "8px",
+                        border: "2px solid #FFFFFF",
+                        boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)",
+                      }}
+                    />
+                  </div>
+                  <div className={style.card_game_content}>
+                    <span>{product.name}</span>
+                    <p>{product.publisher}</p>
+                  </div>
+                </a>
+                  );
+                })}
                 
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-              </div>
-              <div className={style.container_card}>
-              <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
-                <div className={style.card_game}>
-                <div className={style.card_game_image}>
-                    <Image
-                      src={imgMl}
-                      alt=""
-                      style={{ width: "115px", height: "115px", borderRadius: "8px",border:"2px solid #FFFFFF" ,boxShadow: "inset 0px -40px -40px rgba(0, 0, 0, 0.77)" }}
-                    />
-                  </div>
-                  <div className={style.card_game_content}>
-                    <span>Mobile Legends</span>
-                    <p>Monton</p>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
