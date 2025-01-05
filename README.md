@@ -1,3 +1,6 @@
+This test was created using Next.js with the App Router as its routing system and Radix UI combined with native CSS. The purpose of this test is to build the structure and appearance of the website according to the requested design.😊
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
